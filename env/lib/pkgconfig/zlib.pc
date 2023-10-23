@@ -1,0 +1,13 @@
+prefix=/Users/suniltadepalli/training/PycharmProjects/sample_project/env
+exec_prefix=/Users/suniltadepalli/training/PycharmProjects/sample_project/env
+libdir=/Users/suniltadepalli/training/PycharmProjects/sample_project/env/lib
+sharedlibdir=/Users/suniltadepalli/training/PycharmProjects/sample_project/env/lib
+includedir=/Users/suniltadepalli/training/PycharmProjects/sample_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

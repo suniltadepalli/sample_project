@@ -1,0 +1,14 @@
+prefix=/Users/suniltadepalli/training/PycharmProjects/sample_project/env
+exec_prefix=/Users/suniltadepalli/training/PycharmProjects/sample_project/env
+libdir=/Users/suniltadepalli/training/PycharmProjects/sample_project/env/lib
+includedir=/Users/suniltadepalli/training/PycharmProjects/sample_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/suniltadepalli/training/PycharmProjects/sample_project/env/lib -lfreetype
+Libs.private: -lz -L/Users/suniltadepalli/training/PycharmProjects/sample_project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
